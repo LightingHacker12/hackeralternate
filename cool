@@ -1,0 +1,24 @@
+local chat = function(MSG) 
+ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(MSG, "All")
+end
+
+local chatEvents = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
+local messageDoneFiltering = chatEvents:WaitForChild("OnMessageDoneFiltering")
+
+messageDoneFiltering.OnClientEvent:Connect(function(message)
+ local msg = message.Message or ""
+ 
+ 
+ 
+ print(msg)
+  if msg:lower():sub(1,13) == ".bored glitcher" then
+  
+  end
+
+  if msg:lower():sub(1,14) == ".Animator" then
+  
+  end
+
+  if msg:lower():sub(1,14) == ".Reanimate" then
+  
+  end
