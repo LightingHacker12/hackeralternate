@@ -1,4 +1,8 @@
---loadstring(game:HttpGet('https://pastebin.com/raw/0wJsE0yv'))()
+local fury = false
+
+if not game.Players.LocalPlayer.Humanoid or game.Players.LocalPlayer.Character or game.Players.LocalPlayer then
+loadstring(game:HttpGet("https://github.com/LightingHacker12/reanimate2313/blob/main/good%20reanimate%22))() = LocalPlayer,lp,plr,Owner
+end
 
 game:GetService("Players").LocalPlayer.Character.DemonGodSword.Name = '1'
 game:GetService("Players").LocalPlayer.Character.RainbowGodSword.Name = '2'
@@ -7,10 +11,9 @@ game:GetService("Players").LocalPlayer.Character.CorruptLordSword.Name = '4'
 game:GetService("Players").LocalPlayer.Character.ToxicLordSword.Name = '5'
 game:GetService("Players").LocalPlayer.Character.DemonLordSword.Name = '6'
 
-local fury = false
 local AnimationPlayer = game:GetObjects("rbxassetid://12088767913")[1]
-local script = game:GetObjects("rbxassetid://11225944180")[1] -- i change this.
-local Owner = game.Players.LocalPlayer
+local script = game:GetObjects("rbxassetid://11225944180")[1]
+--local Owner = game.Players.LocalPlayer
 
 local repStorage = game:GetService("ReplicatedStorage")
 
