@@ -1,4 +1,4 @@
-loadstring(game:HttpGet('https://pastebin.com/raw/0wJsE0yv'))()
+--loadstring(game:HttpGet('https://pastebin.com/raw/0wJsE0yv'))()
 
 game:GetService("Players").LocalPlayer.Character.DemonGodSword.Name = '1'
 game:GetService("Players").LocalPlayer.Character.RainbowGodSword.Name = '2'
@@ -13,18 +13,6 @@ local script = game:GetObjects("rbxassetid://11225944180")[1] -- i change this.
 local Owner = game.Players.LocalPlayer
 
 local repStorage = game:GetService("ReplicatedStorage")
-
---[[
-
-Script written from scratch by Asarii_IV.
-A month-long project orientated around creating the ultimate multi-purpose glitcher.
-
-Credits:
-Asarii_IV - Original creator and owner.
-StratopshericAero - CFrame animation base.
-GunsForGunsKidd - CFrame animation rigs.
-
-]]
 
 -- /// CORE FUNCTIONS
 
